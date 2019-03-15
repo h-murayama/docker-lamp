@@ -30,19 +30,19 @@ sudo docker ps
 
 First start 
 ```
-# foregroundで起動
+# foreground
 docker-compose up
 
-# backgroundで起動
+# background
 docker-compose up -d
 ```
 
 Stop
 ```
-# foregroundで起動していた場合
+# foreground
 ##Ctr + C
 
-# backgroundで起動していた場合
+# background
 docker-compose stop
 ```
 
